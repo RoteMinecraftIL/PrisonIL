@@ -1,0 +1,6 @@
+{
+  "name": "Prisonil",
+  "tagline": "",
+  "body": "# PrisonIL\r\n\r\n[PrisonIL] is a [Minecraft](https://minecraft.net/ \"Minecraft home\") server, using [Spigot](http://www.spigotmc.org/ \"Spigot home\"), built for version `1.8.x`.\r\n\r\nThis server is public, __BUT IT'S WIP!!!__. If you want to help, the server IP is: `89.139.139.222:25565`!\r\n\r\n[Server Website](http://prison-il.enjin.com \"Hosted by Enjin.\").\r\n\r\n```\r\nPrisonIL.say(\"Hello!\");\r\n```",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
