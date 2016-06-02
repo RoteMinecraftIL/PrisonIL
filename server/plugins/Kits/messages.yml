@@ -1,0 +1,9 @@
+Kit Created: '&aKit &e%NAME%&a has been created!'
+Kit Deleted: '&cKit &e%NAME%&c has been deleted!'
+Kit Not Found: '&cCould not find &e%NAME%&c.'
+Kit Sign Created: '&aSign set to kit &e%NAME%'
+Kit Given: '&aYou have been given kit &e%NAME%&a.'
+No Permission: '&cPermission Denied'
+Kit Exists: '&cThis kit already exists!'
+One Kit Per Life Already Have Kit: '&cYou already have a kit. You may get a new one
+  once you die.'

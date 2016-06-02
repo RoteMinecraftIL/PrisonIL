@@ -1,0 +1,62 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+    - essentials.balance
+    - essentials.pay
+    - essentials.help
+    - essentials.helpop
+    - essentials.motd
+    - essentials.msg
+    - essentials.signs.use.*
+    - essentials.signs.enchant.allowunsafe
+    - essentials.warp
+    - essentials.warp.A
+    - essentials.warp.Spawn
+    - essentials.warp.ServerShop
+    - essentials.kit
+    - essentials.kit.Tools
+  Owner:
+    options:
+      prefix: '&c&l[&r&4&lOWNER&r&c&l]&r '
+      suffix: '&b'
+    permissions:
+    - '*'
+  A:
+    options:
+      prefix: '&r&c[&dA&c] &r'
+  Moderator:
+    options:
+      prefix: '&c&l[&r&a&lMod&r&c&l]&r '
+    permissions:
+    - '*'
+  Admin:
+    options:
+      prefix: '&c&l[&r&e&lAdmin&r&c&l]&r '
+    permissions:
+    - '*'
+  Builder:
+    options:
+      prefix: '&c&l[&r&5&lBuilder&r&c&l]&r '
+schema-version: 1
+users:
+  85244a8e-76f0-478e-9b67-7fe061abadec:
+    options:
+      name: rotemoses202
+    permissions:
+    - kits.get.DiamondT1
+    - '*'
+    group:
+    - Owner
+    - Moderator
+    - Admin
+    - Builder
+  30be97ec-c405-4174-84f7-800488a3b6cb:
+    options:
+      name: avivgal2
+    permissions:
+    - '*'
+    group:
+    - Owner

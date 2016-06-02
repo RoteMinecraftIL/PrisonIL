@@ -1,0 +1,60 @@
+ranks:
+- A-Rank
+- B-Rank
+- C-Rank
+- D-Rank
+prices:
+- '0'
+- '10000'
+- '30000'
+- '75000'
+messages:
+  noMoneyToRankup: |-
+    &4&lError: &cNot enough money!
+    &eYou need $%AMOUNTTOTAL%
+  highestRank: '&aGood work! You''re at the highest rank (%RANK%)!'
+  successfullRankupPrivate: '&aYou Successfully ranked up to: &d%RANK%'
+  successfullRankupPublic: '&a%PLAYER% &eSuccessfully ranked up to: &d%RANK%'
+  notInLadder: '&cCould not get group from config; please contact your administrator.'
+  listRanks:
+    default: "&r%RANK% &e\xbb &r%RANK2% &efor &r%AMOUNT%"
+    complete: "&7%RANK% &8\xbb &7%RANK2% &8for &7%AMOUNT%"
+    inProgress: "&c%RANK% &e\xbb &c%RANK2% &efor &c%AMOUNT% &e(%PERCENTDONE%%)"
+    custom:
+      A-Rank: "&rA-Rank &e\xbb &r%RANK2% &efor &r%AMOUNT%"
+      options:
+        overrideComplete: false
+        overrideInProgress: false
+        overrideDefault: true
+  publicMessage: true
+runCommands:
+- CONSOLE:commandForConsoleToRunOnRankup
+- CONSOLE:B-Rank:onlyRunThisCommandWhenSomeoneRanksUpToB-Rank
+gui:
+  allow: 'true'
+  size: '9'
+  'yes':
+    material: EMERALD_BLOCK
+    index: 0-3
+    name: '&a&lRankup'
+  'no':
+    material: REDSTONE_BLOCK
+    index: 5-8
+    name: '&c&lCancel'
+  fill:
+    name: ' '
+    material: STAINED_GLASS_PANE:15
+  useFormatted: true
+  name: '&cRankup to %RANK% for %AMOUNT%'
+placeholders:
+  currentRankCostFormat: '##############0.00'
+  nextRankCostFormat: '##############0.00'
+  useShortening: true
+  shortened:
+  - k
+  - m
+  - b
+  - T
+  percentDoneFormat: '##.##'
+  percentLeftFormat: '##.##'
+  allowNegativePercent: false

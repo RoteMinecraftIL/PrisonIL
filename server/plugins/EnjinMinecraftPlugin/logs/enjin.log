@@ -1,0 +1,804 @@
+Started logging the Enjin Plugin on 2016/06/01 10:37:48 IDT
+2016/06/01 10:37:48 IDT [FINE] Logger initialized.
+2016/06/01 10:37:48 IDT [FINE] Begin init
+2016/06/01 10:37:48 IDT [FINE] Init vars done.
+2016/06/01 10:37:48 IDT [FINE] Minecraft version: git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8)
+2016/06/01 10:37:48 IDT [FINE] MC Version string: 1.8.8
+2016/06/01 10:37:48 IDT [FINE] Get the ban list
+2016/06/01 10:37:48 IDT [FINE] Ban list loaded
+2016/06/01 10:37:48 IDT [FINE] Init files done.
+2016/06/01 10:37:48 IDT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/06/01 10:37:48 IDT [FINE] Initializing permissions.
+2016/06/01 10:37:48 IDT [WARNING] Economy plugin is not enabled.
+2016/06/01 10:37:48 IDT [FINE] Init plugins done.
+2016/06/01 10:37:48 IDT [FINE] PermissionsEx found, hooking custom events.
+2016/06/01 10:37:48 IDT [FINE] Setup permissions integration
+2016/06/01 10:37:48 IDT [FINE] Setup Votifier integration
+2016/06/01 10:37:48 IDT [FINE] Registering events.
+2016/06/01 10:37:48 IDT [FINE] Auth key is invalid. Wrong length.
+2016/06/01 10:37:53 IDT [FINE] Connecting to Enjin to send config...
+2016/06/01 10:37:53 IDT [FINE] Sending content: 
+authkey=&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/06/01 10:38:01 IDT [INFO] Checking if key is valid
+2016/06/01 10:38:02 IDT [FINE] Reply from enjin on Enjin Key for url https://api.enjin.com/api/minecraft-auth and query key=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&port=25565&save=1: 1
+2016/06/01 10:38:02 IDT [FINE] Writing hash to file.
+2016/06/01 10:38:02 IDT [FINE] Stopping tasks.
+2016/06/01 10:38:02 IDT [FINE] Unregistering events.
+2016/06/01 10:38:02 IDT [FINE] Starting tasks.
+2016/06/01 10:38:02 IDT [FINE] Registering events.
+2016/06/01 10:39:03 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:39:03 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&maxplayers=20&mc_version=1.8.8&players=1&hasranks=TRUE&pluginversion=2.7.7&plugins=PermissionsEx%2CWorldEdit%2CFortuneBlocks%2CVault%2CPrisonILPlugin%2CNameManager%2CPrison%2CRankup%2CEssentials%2CEssentialsChat%2CEnjinMinecraftPlugin&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.73908576965332&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:39:04 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:39:04 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:39:04 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:39:04 IDT [FINE] Synch successful.
+2016/06/01 10:39:04 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:39:35 IDT [FINE] Scanning banned player list
+2016/06/01 10:39:50 IDT [FINE] Connecting to Enjin for shop data for player...
+2016/06/01 10:39:50 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&player=rotemoses202
+2016/06/01 10:39:51 IDT [FINE] Shop output:
+[]
+2016/06/01 10:40:04 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:40:04 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.561561355590822&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:40:05 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:40:05 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:40:05 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:40:05 IDT [FINE] Synch successful.
+2016/06/01 10:40:05 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:41:06 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:41:06 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.465880813598634&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:41:07 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:41:07 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:41:07 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:41:07 IDT [FINE] Synch successful.
+2016/06/01 10:41:07 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:41:08 IDT [FINE] Scanning banned player list
+2016/06/01 10:42:06 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:42:06 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.691835708618164&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:42:07 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:42:07 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:42:07 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:42:07 IDT [FINE] Synch successful.
+2016/06/01 10:42:07 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:42:39 IDT [FINE] Scanning banned player list
+2016/06/01 10:43:08 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:43:08 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.70255142211914&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAF1SwY7bIBD9FWtOXcmOgGLj%2BLraY9VDDz1UVYXt8YYNNhaQNJHlf%2B8Yp41UhMRjmJk384YFOuexc5cpQiNziC5qezbdOUDDcnB0wHcz9e53yDijfWCZHvtKQg6jvo04On%2BHhteCvGer7%2Bgp5McCt9niFW3K0psQ9dQhNAucnA8EKA8lMBN22sfHdXCOYHlQpRBVzVlZcnFkPIfW6b8%2Bs3lPaM2hO%2BloKcNeaWtdKnqB1rszTuluiZhMayqtw%2F4%2F4%2B6Zwvd3gmQejA8xmhH3fqAZtA1IPlc8G2t3vsvFkDvUpZBS11ioamCFVISObaUKNSCruG51jx1JtcWl9A%2BFb3PCo5vwrsddfXX4zI6MlpDHunrjYmOcn4w96nh6kAf0kx5JR%2FAu0gwCBsEEpBpxiibeH3HLuv7MweoQaQQ%2BdUXTkpVUFS31b2bbyLF%2FSkME17SDcaQQvJtYfCPxXSxQ9lJxViDHFkuRffry2mT8UB%2FqFyrgQ1%2F1M2wzs19KZV%2B97ixmr87Pzuu4vVL76fdQM6QML8ty%2FQN7SyhJjgIAAA%3D%3D
+2016/06/01 10:43:09 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:43:09 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:43:09 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:43:09 IDT [FINE] Synch successful.
+2016/06/01 10:43:09 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:44:09 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:44:09 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.571435699462892&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:44:10 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:44:10 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:44:10 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:44:10 IDT [FINE] Synch successful.
+2016/06/01 10:44:10 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:44:11 IDT [FINE] Scanning banned player list
+2016/06/01 10:45:10 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:45:10 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.57066650390625&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:45:11 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:45:11 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:45:11 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:45:11 IDT [FINE] Synch successful.
+2016/06/01 10:45:11 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:45:43 IDT [FINE] Scanning banned player list
+2016/06/01 10:46:11 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:46:12 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.67518569946289&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:46:13 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:46:13 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:46:13 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:46:13 IDT [FINE] Synch successful.
+2016/06/01 10:46:13 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:47:13 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:47:13 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.544752349853514&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:47:14 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:47:14 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:47:14 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:47:14 IDT [FINE] Synch successful.
+2016/06/01 10:47:14 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:47:15 IDT [FINE] Scanning banned player list
+2016/06/01 10:48:14 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:48:14 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.801382789611818&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAF1SQc%2BbMAz9K8inTYIq0JQA1087TjvssMM0TQbM16yBoCTtWiH%2B%2B0zoVmlRpLw4tp%2F9nAU666iz1ylAI1MINqC56O7ioREpWD7gm556%2B9snueB9EAmOfSkhhRHvI43WPaDJq4K9Z4MPchzyfYH7bOhGJmbptQ84dQTNAmfrPAPOwwn0RB268LwO1jLM5UGUsqqO9VGURSnrOoXW4l%2BnWb9HtKbQnTEYTrGX2hobq16gdfZCU7wbZmbTGmvrqP%2FPuHvG8P2dIZsH7XwIeqS9IWgGNJ7Y50YXbczOd71qdofqVEiJFWWqHEQmFaO6LVWmBhJlji321LFWW1xM%2F5T4Pkc82okeOO7yq8NR1IJXIeuq%2FJQXG%2BP8YuwJw%2FlJ7slNOLKQ4GzgIXjyhSgg1khT0OHxjFvW9UcKBn3gGbjY1aZxKVXJS%2F0b2jZz6l%2FSMMEtbq8tKwTvOmRfWXwbMpK9VLnIKKeWTkXy4fNbk%2BSH6lB95AJ%2B4Q1fYZtZ%2FFQq%2BeKwM5S8WTdbh2F75fbj9%2BFmWJn8dBLrH4FbGzqPAgAA
+2016/06/01 10:48:15 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:48:15 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:48:15 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:48:15 IDT [FINE] Synch successful.
+2016/06/01 10:48:15 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:48:47 IDT [FINE] Scanning banned player list
+2016/06/01 10:49:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:49:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.78115882873535&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:49:16 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:49:16 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:49:16 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:49:16 IDT [FINE] Synch successful.
+2016/06/01 10:49:16 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:50:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:50:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.865421981811522&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:50:16 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:50:16 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:50:16 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:50:16 IDT [FINE] Synch successful.
+2016/06/01 10:50:16 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:50:17 IDT [FINE] Scanning banned player list
+2016/06/01 10:51:16 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:51:16 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.83400260925293&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:51:16 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:51:16 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:51:16 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:51:16 IDT [FINE] Synch successful.
+2016/06/01 10:51:17 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:51:48 IDT [FINE] Scanning banned player list
+2016/06/01 10:52:16 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:52:16 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.925633316040038&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:52:17 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:52:17 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:52:17 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:52:17 IDT [FINE] Synch successful.
+2016/06/01 10:52:17 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:53:19 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:53:19 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.24274612426758&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAE1SwW7bMAz9FYOnDbADyZVlx7cuzWFYswDboYdhKGSbabTIliEpWYIg%2Fz5aSZcKAkRRJN97pM7QWoet3Q8BapFCsEGZnW53HmqWgqUDXvTQ2b8%2B4Yz2jCWq76SAFHp17LG37gQ1r3KKHo06oaOUX2c4jgYPaGKVTvughhahPsPWOk8G1aECesBWuXC7bqwlM5%2FlUhRFznIhJJecp9BY9R4z6rdoXVJotyoYqnBl2hgbSZ%2BhcXaHQ7wbAp5cy9Xyx%2BPz0%2BuX5%2FXiW8aIb5HC09fH1fr7R%2BclSmix%2B5hMzmtFCpDvAQRJ%2Fo12PgTd41U41BtlPFLMAXfamCux%2FV5TOFQF6VEVZqXcsEyUZM0bWWblBpnkqlEdttTTKS%2BWv43iOEa7twOeVH8dUzl7YHNGKxfzSi55PiGOd8QOVdjewD26QfXUcHA20LA8euosRI44BB1Ot7zz5fI7BaN8oFm5qIoECylKSav8P9zpb2B37w0BHOL22lKL4E2H7CdNyYYMRSdKzjLk2GCRJ59Wizrhs2pWfSYCf9RB3dMmN3sty2TtVGswWVg3WqfC9Ery4zcjMdQZ%2FlAVl39wIS60twIAAA%3D%3D
+2016/06/01 10:53:20 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:53:20 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:53:20 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:53:20 IDT [FINE] Synch successful.
+2016/06/01 10:53:20 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:53:21 IDT [FINE] Scanning banned player list
+2016/06/01 10:54:19 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:54:19 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.869840850830077&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:54:20 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:54:20 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:54:20 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:54:20 IDT [FINE] Synch successful.
+2016/06/01 10:54:20 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:54:51 IDT [FINE] Scanning banned player list
+2016/06/01 10:55:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:55:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.922979431152342&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:55:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:55:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:55:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:55:21 IDT [FINE] Synch successful.
+2016/06/01 10:55:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:56:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:56:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.91289237976074&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:56:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:56:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:56:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:56:21 IDT [FINE] Synch successful.
+2016/06/01 10:56:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:56:22 IDT [FINE] Scanning banned player list
+2016/06/01 10:57:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:57:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.959499893188475&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:57:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:57:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:57:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:57:21 IDT [FINE] Synch successful.
+2016/06/01 10:57:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:57:52 IDT [FINE] Scanning banned player list
+2016/06/01 10:58:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:58:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.940140380859376&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAF1SwY6cMAz9FeRTV4JRwjIEuK56rHrooYeqqgyYnewEgpLMdEaIf68J047UKFIcx37Pfs4CnXXU2csUoClSCDagOevu7KERKVg%2B4LueevvbJ1LwPogEx74sIIURbyON1t2hkVXO0bPBOzlO%2BbHAbTZ0JRNReu0DTh1Bs8DJOs8G4zCAnqhDFx7XwVo2ZX44ClmXeV2LinErlUJr8W%2FQrN%2BjtabQnTAYhthLbY2NVS%2FQOnumKd4NM7NrjbV11P%2Fn3CNj%2Bv7OJrsH7XwIeqS9IWgGNJ445kpnbczOd7loDofqmBcFVpSpchBZodiq21JlaiBRSmyxp4612vIi%2FEPi2xzt0U50x3GXXx1eRS145VUly88y3xjnJ2NPGE4Pck9uwpGFBGcDD8GTz0UOsUaagg73R96yrj9TMOgDz8DFrljjoixUyUv9G9o2c%2Bqf0jDBNW6vLSsE7zpk31h8GzIq%2BkJJkZGklo558unLW5PIQ3WoXriAD7ziM21zi19KJV8ddoaSN%2Btm6zBsr9x%2B%2FD7cDCsjX0ux%2FgHDHTc2jwIAAA%3D%3D
+2016/06/01 10:58:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:58:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:58:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:58:21 IDT [FINE] Synch successful.
+2016/06/01 10:58:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:59:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 10:59:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.961946334838867&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 10:59:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 10:59:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 10:59:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 10:59:21 IDT [FINE] Synch successful.
+2016/06/01 10:59:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 10:59:22 IDT [FINE] Scanning banned player list
+2016/06/01 11:00:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 11:00:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.97686599731445&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 11:00:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 11:00:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 11:00:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 11:00:21 IDT [FINE] Synch successful.
+2016/06/01 11:00:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 11:00:52 IDT [FINE] Scanning banned player list
+2016/06/01 11:01:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 11:01:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.981251068115235&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 11:01:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 11:01:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 11:01:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 11:01:21 IDT [FINE] Synch successful.
+2016/06/01 11:01:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 11:02:20 IDT [FINE] Connecting to Enjin...
+2016/06/01 11:02:20 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.949037933349608&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 11:02:21 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 11:02:21 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 11:02:21 IDT [FINE] Raw data received:
+ok
+2016/06/01 11:02:21 IDT [FINE] Synch successful.
+2016/06/01 11:02:21 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 11:02:22 IDT [FINE] Scanning banned player list
+2016/06/01 11:02:41 IDT [FINE] Stopping tasks.
+2016/06/01 11:02:41 IDT [FINE] Stats saved to enjin-stats.json.
+Started logging the Enjin Plugin on 2016/06/01 17:07:26 IDT
+2016/06/01 17:07:26 IDT [FINE] Logger initialized.
+2016/06/01 17:07:26 IDT [FINE] Begin init
+2016/06/01 17:07:26 IDT [FINE] Init vars done.
+2016/06/01 17:07:26 IDT [FINE] Minecraft version: git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8)
+2016/06/01 17:07:26 IDT [FINE] MC Version string: 1.8.8
+2016/06/01 17:07:26 IDT [FINE] Get the ban list
+2016/06/01 17:07:26 IDT [FINE] Ban list loaded
+2016/06/01 17:07:26 IDT [FINE] Init files done.
+2016/06/01 17:07:26 IDT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/06/01 17:07:26 IDT [FINE] Initializing permissions.
+2016/06/01 17:07:26 IDT [WARNING] Economy plugin is not enabled.
+2016/06/01 17:07:26 IDT [FINE] Init plugins done.
+2016/06/01 17:07:26 IDT [FINE] PermissionsEx found, hooking custom events.
+2016/06/01 17:07:26 IDT [FINE] Setup permissions integration
+2016/06/01 17:07:26 IDT [FINE] Setup Votifier integration
+2016/06/01 17:07:26 IDT [FINE] Registering events.
+2016/06/01 17:07:26 IDT [FINE] Starting periodic tasks.
+2016/06/01 17:07:26 IDT [FINE] Starting tasks.
+2016/06/01 17:07:27 IDT [FINE] Connecting to Enjin to send config...
+2016/06/01 17:07:27 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/06/01 17:08:27 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:08:27 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&maxplayers=20&mc_version=1.8.8&players=0&hasranks=TRUE&pluginversion=2.7.7&plugins=PermissionsEx%2CWorldEdit%2CFortuneBlocks%2CVault%2CPrisonILPlugin%2CNameManager%2CPrison%2CRankup%2CEssentials%2CEssentialsChat%2CEnjinMinecraftPlugin&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.999773712158202&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:08:27 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:08:27 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:08:27 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:08:27 IDT [FINE] Synch successful.
+2016/06/01 17:08:27 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:08:58 IDT [FINE] Scanning banned player list
+2016/06/01 17:09:26 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:09:26 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=0&hasranks=TRUE&pluginversion=2.7.7&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.9916072845459&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:09:27 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:09:27 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:09:27 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:09:27 IDT [FINE] Synch successful.
+2016/06/01 17:09:27 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:09:51 IDT [FINE] Connecting to Enjin for shop data for player...
+2016/06/01 17:09:51 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&player=rotemoses202
+2016/06/01 17:09:53 IDT [FINE] Shop output:
+[{"id":"38615544","name":"Donation Store","info":"","buyurl":"http:\/\/prison-il.enjin.com\/buy\/","currency":"USD","ingame_purchase_points_enabled":"1","current_points":0,"simpleitems":false,"colortext":"f","colortitle":"6","colorid":"6","colorname":"e","colorprice":"a","colorbracket":"f","colorurl":"f","colorinfo":"7","colorborder":"f","colorbottom":"e","border_v":"| ","border_h":"-","border_c":"+","categories":[{"id":"1090543","name":"Kits","info":"In game kits","categories":[],"items":[{"id":"1936461","name":"Kit Diamond [Tier I]","info":"\/kit DiamondT1","image_name":"http:\/\/files.enjin.com.s3.amazonaws.com\/1234227\/modules\/shopping\/38615544-977211161574eea207afa86.14574500.jpg","variables":[],"icon_damage":"0","icon_item":"PAPER","price":"1.00","points":"100"}],"icon_damage":"0","icon_item":"CHEST"}]}]
+2016/06/01 17:10:00 IDT [FINE] Connecting to Enjin to send item purchase...
+2016/06/01 17:10:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&item_id=1936461&player=rotemoses202&uuid=85244a8e-76f0-478e-9b67-7fe061abadec&custom_points=0&custom_price=0
+2016/06/01 17:10:01 IDT [FINE] Returned content for purchase:
+{"status":"error","error":"Not enough points for user #14481684. You have 0 points, while the item costs 100 points"}
+2016/06/01 17:10:27 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:27 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:27 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:10:27 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.774491424560548&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&playergroups=rotemoses202%7C85244a8e-76f0-478e-9b67-7fe061abadec%3B*%3AOwner%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:10:28 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":99999999}
+2016/06/01 17:10:28 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:10:28 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:10:28 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:10:28 IDT [FINE] Synch successful.
+2016/06/01 17:10:28 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:10:29 IDT [FINE] Scanning banned player list
+2016/06/01 17:10:29 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:29 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:30 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":199999998}
+2016/06/01 17:10:31 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:31 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:31 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":299999997}
+2016/06/01 17:10:32 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:32 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:32 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":399999996}
+2016/06/01 17:10:33 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:33 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:33 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":499999995}
+2016/06/01 17:10:34 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:34 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:35 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":599999994}
+2016/06/01 17:10:36 IDT [FINE] Connecting to Enjin for action AddPoints for 999999999 points for player rotemoses202
+2016/06/01 17:10:36 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=999999999&player=rotemoses202
+2016/06/01 17:10:37 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":1599999993}
+2016/06/01 17:10:38 IDT [FINE] Connecting to Enjin for action AddPoints for 999999999 points for player rotemoses202
+2016/06/01 17:10:38 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=999999999&player=rotemoses202
+2016/06/01 17:10:38 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":2000000000}
+2016/06/01 17:10:46 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:46 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:46 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":2000000000}
+2016/06/01 17:10:47 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:47 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:47 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":2000000000}
+2016/06/01 17:10:49 IDT [FINE] Connecting to Enjin for action AddPoints for 99999999 points for player rotemoses202
+2016/06/01 17:10:49 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&points=99999999&player=rotemoses202
+2016/06/01 17:10:49 IDT [FINE] Content of points query for type AddPoints:
+{"success":"true","points":2000000000}
+2016/06/01 17:11:00 IDT [FINE] Connecting to Enjin to send item purchase...
+2016/06/01 17:11:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&item_id=1936461&player=rotemoses202&uuid=85244a8e-76f0-478e-9b67-7fe061abadec&custom_points=0&custom_price=0
+2016/06/01 17:11:01 IDT [FINE] Returned content for purchase:
+{"success":"true","message":"Purchase complete. You have 1999999900 points remaining"}
+2016/06/01 17:11:27 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:11:27 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.95437141418457&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:11:28 IDT [FINE] Packet [0x12](Execute Command) received.
+2016/06/01 17:11:28 IDT [FINE] Executing command "bc rotemoses202 Has just bought Kit Diamond [Tier I] from our store (http://prison-il.enjin.com/shop)!" as console.
+2016/06/01 17:11:28 IDT [FINE] Packet [0x12](Execute Command) received.
+2016/06/01 17:11:28 IDT [FINE] Executing command "pm rotemoses202 Thanks for pruchasing Kit Diamond [Tier I] from our store! You will get it in 5 secs." as console.
+2016/06/01 17:11:28 IDT [FINE] Packet [0x12](Execute Command) received.
+2016/06/01 17:11:28 IDT [FINE] Executing command "pex user rotemoses202 add kits.get.DiamondT1 5" as console in 5 seconds.
+2016/06/01 17:11:28 IDT [FINE] Packet [0x0D](Carriage Return) received, ignoring...
+2016/06/01 17:11:28 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:11:28 IDT [FINE] Packet [0x1D](Player Purchase) received.
+2016/06/01 17:11:28 IDT [FINE] Removing these player's buffered buy lists: rotemoses202:1936461:$1.00
+2016/06/01 17:11:28 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:11:28 IDT [FINE] Raw data received:
+135259327:bc rotemoses202 Has just bought Kit Diamond [Tier I] from our store (http://prison-il.enjin.com/shop)!135259328:pm rotemoses202 Thanks for pruchasing Kit Diamond [Tier I] from our store! You will get it in 5 secs.135259329:pex user rotemoses202 add kits.get.DiamondT1 5okrotemoses202:1936461:$1.00
+2016/06/01 17:11:28 IDT [FINE] Synch successful.
+2016/06/01 17:11:28 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:11:28 IDT [FINE] Executing queued command: bc rotemoses202 Has just bought Kit Diamond [Tier I] from our store (http://prison-il.enjin.com/shop)!
+2016/06/01 17:11:28 IDT [FINE] Result: CONSOLE issued server command: /bc rotemoses202 Has just bought Kit Diamond [Tier I] from our store (http://prison-il.enjin.com/shop)!
+2016/06/01 17:11:28 IDT [FINE] Executing queued command: pm rotemoses202 Thanks for pruchasing Kit Diamond [Tier I] from our store! You will get it in 5 secs.
+2016/06/01 17:11:28 IDT [FINE] Result: ;33;22m[;31;1mme;33;22m -> ;31;1m;31;1m1m[;31;22m1mOWNER;31;1m1m] ;36;1mrotemoses202;36;1m;33;22m] Thanks for pruchasing Kit Diamond [Tier I] from our store! You will get it in 5 secs.
+2016/06/01 17:11:33 IDT [FINE] Executing delayed command: pex user rotemoses202 add kits.get.DiamondT1
+2016/06/01 17:11:33 IDT [FINE] Result: ;37;1mPermission "kits.get.DiamondT1" added!
+2016/06/01 17:11:59 IDT [FINE] Scanning banned player list
+2016/06/01 17:12:28 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:12:28 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&executed_commands=135259329%3Ab9e4d1468619993731547c506ce54ee5%3AOzM3OzFtUGVybWlzc2lvbiAia2l0cy5nZXQuRGlhbW9uZFQxIiBhZGRlZCE%3D%2C135259328%3A3937828c3dbd37ef7c4fcd11b2ba0f62%3AOzMzOzIybVs7MzE7MW1tZTszMzsyMm0gLT4gOzMxOzFtOzMxOzFtMW1bOzMxOzIybTFtT1dORVI7MzE7MW0xbV0gOzM2OzFtcm90ZW1vc2VzMjAyOzM2OzFtOzMzOzIybV0gVGhhbmtzIGZvciBwcnVjaGFzaW5nIEtpdCBEaWFtb25kIFtUaWVyIEldIGZyb20gb3VyIHN0b3JlISBZb3Ugd2lsbCBnZXQgaXQgaW4gNSBzZWNzLg%3D%3D%2C135259327%3A46d235d26f6e0944edae2031f8eae968%3AQ09OU09MRSBpc3N1ZWQgc2VydmVyIGNvbW1hbmQ6IC9iYyByb3RlbW9zZXMyMDIgSGFzIGp1c3QgYm91Z2h0IEtpdCBEaWFtb25kIFtUaWVyIEldIGZyb20gb3VyIHN0b3JlIChodHRwOi8vcHJpc29uLWlsLmVuamluLmNvbS9zaG9wKSE%3D&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.65691864013672&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAF1SwY6cMAz9FeRTVwIUWCAZrqseqx566KGqKgNmJzuBoCQzndGIf68J047UKFJeHNvPfs4deuuot%2Bc5QFulEGxAc9L9yUMrUrB8wHc9D%2Fa3TwrBOxcJTkNTQQoTXiearLtBW6iSvReDN3Ic8uMO18XQhUzMMmgfcO4J2jscrfMMOA8n0DP16MLjOlrLUOalOoi6Fqo5yKZRKXQW%2F7os%2Bj2iNYX%2BiMFwgr3QzthY8x06Z080x7thXjatsbKehv%2BMu2cM398ZsnnUzoegJ9rbgXZE44l9LnTSxux857Nmd1B1WVWoKJPNKLJKMjp0jczkSKIpsMOBelZqi4vpHwJfl4gnO9MNp118mb%2BKg%2BBVKlU0n4tyY1yejANhOD7IPbkZJ5YRnA08Ak%2B%2BFCXEGmkOOtwecfd1%2FZmCQR94Ai52xcOqmkoy1evh38i2idPwlIYJLnF7bVkheNch%2B8bi25BRNVSyEBkV1FFdJp%2B%2BvLVJkatcvXABH3jBZ9hmFr%2BkTL467A0lb9Yt1mHYXrn9%2BHm4GVamKFW9%2FgG2Oqz7jQIAAA%3D%3D
+2016/06/01 17:12:29 IDT [FINE] Packet [0x1E] (Commands Received) received.
+2016/06/01 17:12:29 IDT [FINE] Removing these command ids from the list: 135259329,135259328,135259327
+2016/06/01 17:12:29 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:12:29 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:12:29 IDT [FINE] Raw data received:
+135259329,135259328,135259327ok
+2016/06/01 17:12:29 IDT [FINE] Synch successful.
+2016/06/01 17:12:29 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:13:28 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:13:28 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.96421676635742&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:13:29 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:13:29 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:13:29 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:13:29 IDT [FINE] Synch successful.
+2016/06/01 17:13:29 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:13:30 IDT [FINE] Scanning banned player list
+2016/06/01 17:13:49 IDT [FINE] Stopping tasks.
+2016/06/01 17:13:49 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:13:54 IDT [FINE] Key value retrieved: 392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2
+2016/06/01 17:13:54 IDT [FINE] Initializing internal logger
+2016/06/01 17:13:55 IDT [FINE] Logger initialized.
+2016/06/01 17:13:55 IDT [FINE] Begin init
+2016/06/01 17:13:55 IDT [FINE] Init vars done.
+2016/06/01 17:13:55 IDT [FINE] Minecraft version: git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8)
+2016/06/01 17:13:55 IDT [FINE] MC Version string: 1.8.8
+2016/06/01 17:13:55 IDT [FINE] Get the ban list
+2016/06/01 17:13:55 IDT [FINE] Ban list loaded
+2016/06/01 17:13:55 IDT [FINE] Init files done.
+2016/06/01 17:13:55 IDT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/06/01 17:13:55 IDT [FINE] Initializing permissions.
+2016/06/01 17:13:55 IDT [WARNING] Economy plugin is not enabled.
+2016/06/01 17:13:55 IDT [FINE] Init plugins done.
+2016/06/01 17:13:55 IDT [FINE] PermissionsEx found, hooking custom events.
+2016/06/01 17:13:55 IDT [FINE] Setup permissions integration
+2016/06/01 17:13:55 IDT [FINE] Setup Votifier integration
+2016/06/01 17:13:55 IDT [FINE] Registering events.
+2016/06/01 17:13:55 IDT [FINE] Starting periodic tasks.
+2016/06/01 17:13:55 IDT [FINE] Starting tasks.
+2016/06/01 17:13:55 IDT [FINE] Connecting to Enjin to send config...
+2016/06/01 17:13:55 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/06/01 17:14:55 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:14:56 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&maxplayers=20&mc_version=1.8.8&players=1&hasranks=TRUE&pluginversion=2.7.7&plugins=PermissionsEx%2CWorldEdit%2CFortuneBlocks%2CVault%2CPrisonILPlugin%2CKits%2CNameManager%2CPrison%2CRankup%2CEssentials%2CEssentialsChat%2CEnjinMinecraftPlugin&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.775029602050783&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:14:56 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:14:56 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:14:56 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:14:56 IDT [FINE] Synch successful.
+2016/06/01 17:14:56 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:15:27 IDT [FINE] Scanning banned player list
+2016/06/01 17:15:55 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:15:55 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.78343017578125&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:15:56 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:15:56 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:15:56 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:15:56 IDT [FINE] Synch successful.
+2016/06/01 17:15:56 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:16:55 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:16:55 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.914347915649415&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:16:56 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:16:56 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:16:56 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:16:56 IDT [FINE] Synch successful.
+2016/06/01 17:16:56 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:16:57 IDT [FINE] Scanning banned player list
+2016/06/01 17:17:56 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:17:56 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.95759704589844&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:17:56 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:17:56 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:17:56 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:17:56 IDT [FINE] Synch successful.
+2016/06/01 17:17:56 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:18:28 IDT [FINE] Scanning banned player list
+2016/06/01 17:18:56 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:18:56 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.92239646911621&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAF1Sy66bMBD9FTSrVoLIBgIO26suqy666KKqqgGGGzcGI9tJEyH%2BvYNJG6mWJR%2BP53HmjBforKPOXqcATZlCsAHNRXcXD41IwfIB3%2FTU298%2BkYL3QSQ49lUJKYx4H2m07gGNVDl7zwYf5Djk%2BwL32dCNTMzSax9w6giaBc7WeQachxPoiTp04XkdrGVYHI6lVKooVF7ykkUKrcW%2FPrN%2Bj2hNoTtjMJxhZ9oaG0kv0Dp7oSneDRdm0xqpddT%2FZ9w9Y%2Fj%2BzpDNg3Y%2BBD3S3g80AxpP7HOjizZmr3e9anYHdWSWqCirq0FkZc3o1FZ1Vg8kKokt9tSxVFtcTP9U%2BD5HPNqJHjju6teHQpwEr1wpWX2S%2BVZxflXsCcP5WdyTm3BkHcHZwDPw5HORQ%2BRIU9Dh8Yxb1vVHCgZ94BG42BVPq6zK%2BiTKQv6b2TZy6l%2FScIFb3F5bVgjedci%2Bsvg2ZFT2ZS1FRpJaOubJh89vTSIP6qA%2BMoFfeMNX2GYWP%2Bs6%2BeKwM5S8WTdbh2F75fbj7%2BFm%2Bo1Tnq9%2FAEol%2BUCOAgAA
+2016/06/01 17:18:57 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:18:57 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:18:57 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:18:57 IDT [FINE] Synch successful.
+2016/06/01 17:18:57 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:19:56 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:19:56 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.892546768188478&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:19:57 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:19:57 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:19:57 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:19:57 IDT [FINE] Synch successful.
+2016/06/01 17:19:57 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:19:58 IDT [FINE] Scanning banned player list
+2016/06/01 17:20:56 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:20:56 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.859559097290038&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:20:57 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:20:57 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:20:57 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:20:57 IDT [FINE] Synch successful.
+2016/06/01 17:20:57 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:21:29 IDT [FINE] Scanning banned player list
+2016/06/01 17:21:57 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:21:57 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.852499771118165&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:21:58 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:21:58 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:21:58 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:21:58 IDT [FINE] Synch successful.
+2016/06/01 17:21:58 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:22:58 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:22:58 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.8148087310791&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:22:59 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:22:59 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:22:59 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:22:59 IDT [FINE] Synch successful.
+2016/06/01 17:22:59 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:23:00 IDT [FINE] Scanning banned player list
+2016/06/01 17:23:58 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:23:58 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.877149505615236&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAEWOwWrDMBBEf0XsqQXZSK4au77mXHrooYdSytZaghLJa6RN2hDy75VzaGFgYWeGeReYONPEx1lgdBqEBeMhTIcCo9HA9cBbmD1%2FF2VNVWsUJr9xoCHhT6LE%2BQyjHbqaXiKeKdfK%2B4eGiEWKYBYJiWrCbVz%2FZNyD%2FcutM%2BRjKHX6ctVQKJ9uKoHnursL0rwuYcfSkPOut6YhS1%2F02Km75%2B2obDu0w30F2eMJ%2F2vr23z2vXrJOEVSW84LZ5TVrdA34mMhvzJ13fUX29JHfQIBAAA%3D
+2016/06/01 17:23:59 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:23:59 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:23:59 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:23:59 IDT [FINE] Synch successful.
+2016/06/01 17:23:59 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:24:30 IDT [FINE] Scanning banned player list
+2016/06/01 17:24:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:24:59 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.88076301574707&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:25:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:25:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:25:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:25:00 IDT [FINE] Synch successful.
+2016/06/01 17:25:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:25:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:25:59 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.91514617919922&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:26:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:26:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:26:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:26:00 IDT [FINE] Synch successful.
+2016/06/01 17:26:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:26:01 IDT [FINE] Scanning banned player list
+2016/06/01 17:26:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:26:59 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.96373580932617&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:27:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:27:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:27:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:27:00 IDT [FINE] Synch successful.
+2016/06/01 17:27:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:27:31 IDT [FINE] Scanning banned player list
+2016/06/01 17:27:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:27:59 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.955514221191407&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:28:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:28:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:28:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:28:00 IDT [FINE] Synch successful.
+2016/06/01 17:28:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:28:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:28:59 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.94524101257324&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAEWOwWrDMBBEf0XsqQXZSKkau77mHHLooYdSytZaghLJa6RN2hDy75VzaGFgYWeGeVcYOdPIp0lgcBqEBeMxjMcCg9HA9cBbmDx%2FF2VNVWsUJr92oCHhT6LE%2BQKD7Vc1PUe8UK6V9w8NEYsUwSwSEtWEW7vuxbgn%2B5dbZsjHUOr09aahUD7fVQJPdXcfpHmdw56lIeddZ01Dlr7oeaUetptB2bZv%2B8cKcsAz%2FteWt%2FnsOrXLOEZSG84zZ5TFrdB34lMhvzA5e%2FsFqv3nUgIBAAA%3D
+2016/06/01 17:29:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:29:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:29:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:29:00 IDT [FINE] Synch successful.
+2016/06/01 17:29:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:29:01 IDT [FINE] Scanning banned player list
+2016/06/01 17:29:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:29:59 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.965755157470703&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:30:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:30:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:30:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:30:00 IDT [FINE] Synch successful.
+2016/06/01 17:30:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:30:31 IDT [FINE] Scanning banned player list
+2016/06/01 17:30:59 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:31:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.978463592529298&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:31:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:31:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:31:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:31:00 IDT [FINE] Synch successful.
+2016/06/01 17:31:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:32:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:32:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.973692626953124&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:32:00 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:32:00 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:32:00 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:32:00 IDT [FINE] Synch successful.
+2016/06/01 17:32:00 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:32:02 IDT [FINE] Scanning banned player list
+2016/06/01 17:33:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:33:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.94196464538574&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:33:01 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:33:01 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:33:01 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:33:01 IDT [FINE] Synch successful.
+2016/06/01 17:33:01 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:33:32 IDT [FINE] Scanning banned player list
+2016/06/01 17:34:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:34:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.976894073486328&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAEWOwWrDMBBEf0XsqQXZSKkau77mHHLooYdSytZaghLJa6RN2hDy75VzaGFgYWeGeVcYOdPIp0lgcBqEBeMxjMcCg9HA9cBbmDx%2FF2VNVWsUJr92oCHhT6LE%2BQKD7Vc1PUe8UK6V9w8NEYsUwSwSEtWEW7vuxbgn%2B5dbZsjHUOr09aahUD7fVQJPdXcfpHmdw56lIeddZ01Dlr7oeaUetptB2bZv%2B8cKcsAz%2FteWt%2FnsOrXLOEZSG84zZ5TFrdB34lMhvzA5e%2FsFqv3nUgIBAAA%3D
+2016/06/01 17:34:01 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:34:01 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:34:01 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:34:01 IDT [FINE] Synch successful.
+2016/06/01 17:34:01 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:35:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:35:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.986815338134765&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:35:01 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:35:01 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:35:01 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:35:01 IDT [FINE] Synch successful.
+2016/06/01 17:35:01 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:35:02 IDT [FINE] Scanning banned player list
+2016/06/01 17:36:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:36:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.968180313110352&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:36:01 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:36:01 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:36:01 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:36:01 IDT [FINE] Synch successful.
+2016/06/01 17:36:01 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:36:32 IDT [FINE] Scanning banned player list
+2016/06/01 17:37:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:37:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.97478073120117&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:37:01 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:37:01 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:37:01 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:37:01 IDT [FINE] Synch successful.
+2016/06/01 17:37:01 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:38:00 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:38:00 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.932545852661132&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:38:01 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:38:01 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:38:01 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:38:01 IDT [FINE] Synch successful.
+2016/06/01 17:38:01 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:38:02 IDT [FINE] Scanning banned player list
+2016/06/01 17:39:01 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:39:01 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.98604072570801&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAEWOwWrDMBBEf0XsqQXZSIlqu77mXHrooYdSytZaghrJa6RN2hDy75VzaGFgYWeGeReYONPEx1lgdBqEBeMhTIcCo9HA9cBrmD1%2FF2VNVWsUJt850JDwJ1HifIbRDpuaXiKeKdfK27uGiEWKYBYJiWrCda5%2FNG5r%2F3LrDPkYSp2%2BXDUUyqebSuC57u6DNC9L2LM05LzrrWnI0ic9bNTd025Uth3a4b6CfOEJ%2F2vr23z0vXrOOEVSO84LZ5TVrdA34mMhX5m23XD9BTSqdh0CAQAA
+2016/06/01 17:39:02 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:39:02 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:39:02 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:39:02 IDT [FINE] Synch successful.
+2016/06/01 17:39:02 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:39:33 IDT [FINE] Scanning banned player list
+2016/06/01 17:40:01 IDT [FINE] Connecting to Enjin...
+2016/06/01 17:40:01 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=1&hasranks=TRUE&pluginversion=2.7.7&playerlist=85244a8e-76f0-478e-9b67-7fe061abadec%3Arotemoses202%3Afalse&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.905232315063476&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 17:40:02 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 17:40:02 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 17:40:02 IDT [FINE] Raw data received:
+ok
+2016/06/01 17:40:02 IDT [FINE] Synch successful.
+2016/06/01 17:40:02 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 17:40:04 IDT [FINE] Stopping tasks.
+2016/06/01 17:40:04 IDT [FINE] Stats saved to enjin-stats.json.
+Started logging the Enjin Plugin on 2016/06/01 19:15:14 IDT
+2016/06/01 19:15:14 IDT [FINE] Logger initialized.
+2016/06/01 19:15:14 IDT [FINE] Begin init
+2016/06/01 19:15:14 IDT [FINE] Init vars done.
+2016/06/01 19:15:14 IDT [FINE] Minecraft version: git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8)
+2016/06/01 19:15:14 IDT [FINE] MC Version string: 1.8.8
+2016/06/01 19:15:14 IDT [FINE] Get the ban list
+2016/06/01 19:15:14 IDT [FINE] Ban list loaded
+2016/06/01 19:15:14 IDT [FINE] Init files done.
+2016/06/01 19:15:14 IDT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/06/01 19:15:14 IDT [FINE] Initializing permissions.
+2016/06/01 19:15:14 IDT [WARNING] Economy plugin is not enabled.
+2016/06/01 19:15:14 IDT [FINE] Init plugins done.
+2016/06/01 19:15:14 IDT [FINE] PermissionsEx found, hooking custom events.
+2016/06/01 19:15:14 IDT [FINE] Setup permissions integration
+2016/06/01 19:15:14 IDT [FINE] Setup Votifier integration
+2016/06/01 19:15:14 IDT [FINE] Registering events.
+2016/06/01 19:15:14 IDT [FINE] Starting periodic tasks.
+2016/06/01 19:15:14 IDT [FINE] Starting tasks.
+2016/06/01 19:15:16 IDT [FINE] Connecting to Enjin to send config...
+2016/06/01 19:15:16 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/06/01 19:16:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 19:16:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&maxplayers=20&mc_version=1.8.8&players=0&hasranks=TRUE&pluginversion=2.7.7&plugins=PermissionsEx%2CWorldEdit%2CFortuneBlocks%2CVault%2CPrisonILPlugin%2CKits%2CNameManager%2CPrison%2CRankup%2CEssentials%2CEssentialsChat%2CEnjinMinecraftPlugin&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.978458557128906&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 19:16:15 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 19:16:15 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 19:16:15 IDT [FINE] Raw data received:
+ok
+2016/06/01 19:16:15 IDT [FINE] Synch successful.
+2016/06/01 19:16:15 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 19:16:46 IDT [FINE] Scanning banned player list
+2016/06/01 19:17:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 19:17:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=0&hasranks=TRUE&pluginversion=2.7.7&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.967325973510743&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 19:17:16 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 19:17:16 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 19:17:16 IDT [FINE] Raw data received:
+ok
+2016/06/01 19:17:16 IDT [FINE] Synch successful.
+2016/06/01 19:17:16 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 19:18:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 19:18:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=0&hasranks=TRUE&pluginversion=2.7.7&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.966090087890624&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 19:18:15 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 19:18:15 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 19:18:15 IDT [FINE] Raw data received:
+ok
+2016/06/01 19:18:15 IDT [FINE] Synch successful.
+2016/06/01 19:18:15 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 19:18:17 IDT [FINE] Scanning banned player list
+2016/06/01 19:19:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 19:19:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=0&hasranks=TRUE&pluginversion=2.7.7&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.96372543334961&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder
+2016/06/01 19:19:19 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 19:19:19 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 19:19:19 IDT [FINE] Raw data received:
+ok
+2016/06/01 19:19:19 IDT [FINE] Synch successful.
+2016/06/01 19:19:19 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 19:19:47 IDT [FINE] Scanning banned player list
+2016/06/01 19:20:15 IDT [FINE] Connecting to Enjin...
+2016/06/01 19:20:15 IDT [FINE] Sending content: 
+authkey=392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2&players=0&hasranks=TRUE&pluginversion=2.7.7&playerlist=&worlds=world%2Cworld_nether%2Cworld_the_end&tps=19.970882568359375&time=world%3A0%2C2%2C0&groups=default%2COwner%2CA%2CModerator%2CAdmin%2CBuilder&stats=H4sIAAAAAAAAAEWOQUvEMBCF%2F0qYk0JakhKb2uuexYMHDyIS22GJm3RKMru6LPvfne5B4cHAvPd43wUmKjjRcWEYnQYmDukQp0OF0WggOfAal5m%2Bq7JG1BoV8tw70JDDT8ZM5QyjHTpJrymcsUjl7V1DCpUrh8IcM0rC9c4%2Fem%2BGv9w2g3OKVaYvVw0Vy%2BmmGmmR3X3k5mWNe%2BIG3ey8NQ1a%2FMSHTt097UZl26Ed7gXkK5zCf217mw%2Fv1XMJU0K1o7JSCby5An0jPlachanr7fUXXCPdtwIBAAA%3D
+2016/06/01 19:20:16 IDT [FINE] Packet [0x19](Enjin Status) received.
+2016/06/01 19:20:16 IDT [FINE] No more packets. End of stream. Update ended.
+2016/06/01 19:20:16 IDT [FINE] Raw data received:
+ok
+2016/06/01 19:20:16 IDT [FINE] Synch successful.
+2016/06/01 19:20:16 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 19:20:28 IDT [FINE] Stopping tasks.
+2016/06/01 19:20:28 IDT [FINE] Stats saved to enjin-stats.json.
+2016/06/01 19:20:30 IDT [FINE] Key value retrieved: 392a32ec2d163c733a2291f358296ef2c264e05baaec9233b2
+2016/06/01 19:20:30 IDT [FINE] Initializing internal logger
+2016/06/01 19:20:30 IDT [FINE] Logger initialized.
+2016/06/01 19:20:30 IDT [FINE] Begin init
+2016/06/01 19:20:30 IDT [FINE] Init vars done.
+2016/06/01 19:20:30 IDT [FINE] Minecraft version: git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8)
+2016/06/01 19:20:30 IDT [FINE] MC Version string: 1.8.8
+2016/06/01 19:20:30 IDT [FINE] Get the ban list
+2016/06/01 19:20:30 IDT [FINE] Ban list loaded
+2016/06/01 19:20:30 IDT [FINE] Init files done.
+2016/06/01 19:20:30 IDT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/06/01 19:20:30 IDT [FINE] Initializing permissions.
+2016/06/01 19:20:30 IDT [WARNING] Economy plugin is not enabled.
+2016/06/01 19:20:30 IDT [FINE] Init plugins done.
+2016/06/01 19:20:30 IDT [FINE] PermissionsEx found, hooking custom events.
+2016/06/01 19:20:30 IDT [FINE] Setup permissions integration
+2016/06/01 19:20:30 IDT [INFO] Votifier plugin found, enabling Votifier support.
+2016/06/01 19:20:30 IDT [WARNING] Couldn't enable EnjinMinecraftPlugin! Reason: com/vexsoftware/votifier/Votifier
+2016/06/01 19:20:30 IDT [FINE] Stopping tasks.
+2016/06/01 19:20:30 IDT [FINE] Stats saved to enjin-stats.json.

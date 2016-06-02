@@ -1,0 +1,38 @@
+lastAccountName: rotemoses202
+timestamps:
+  login: 1464790185866
+  lastteleport: 1464767907970
+  kits:
+    test2: 1464767979301
+    diamond1: 1464768080457
+    color: 1463826714294
+    test: 1464767976050
+    notch: 1464701871017
+    dtools: 1463838085960
+    tools: 1463813802038
+  logout: 1464706138681
+ipAddress: 10.0.0.3
+money: '7309000028816.0'
+godmode: true
+powertools:
+  '275':
+  - setblock ~ ~ ~ stone
+afk: false
+unlimited:
+- 7
+- 323
+lastlocation:
+  world: world
+  x: -159.8783151151515
+  y: 96.0
+  z: 131.7948505944325
+  yaw: 92.54997
+  pitch: 3.6000626
+logoutlocation:
+  world: world
+  x: -110.01219575214549
+  y: 103.15473179307465
+  z: 115.03187649263177
+  yaw: 217.349
+  pitch: 84.59995
+socialspy: true

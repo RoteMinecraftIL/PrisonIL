@@ -1,0 +1,6 @@
+toInventory: true
+recordPlaced: false
+materials:
+- EMERALD_BLOCK
+- GOLD_BLOCK
+- DIAMOND_BLOCK

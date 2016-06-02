@@ -1,0 +1,27 @@
+lastAccountName: avivgal2
+timestamps:
+  login: 1464703272867
+  lastteleport: 1464705636748
+  logout: 1464705877531
+  kits:
+    notch: 1464701882918
+    dtools: 1464701798686
+    tools: 1464701810125
+ipAddress: 79.181.144.247
+lastlocation:
+  world: world
+  x: -160.71996942310918
+  y: 96.0
+  z: 133.79163690346246
+  yaw: 88.4996
+  pitch: 0.7499862
+money: '9000000003623'
+afk: false
+logoutlocation:
+  world: world
+  x: -194.88431938876315
+  y: 114.05372626378833
+  z: 148.9420418901357
+  yaw: -53.252842
+  pitch: 89.399994
+socialspy: false

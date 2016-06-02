@@ -1,0 +1,449 @@
+[19:15:07] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:15:07] [Server thread/INFO]: Loading properties
+[19:15:07] [Server thread/INFO]: Default game type: SURVIVAL
+[19:15:07] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:15:07] [Server thread/INFO]: Debug logging is disabled
+[19:15:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:15:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:15:07] [Server thread/INFO]: Generating keypair
+[19:15:07] [Server thread/INFO]: Starting Minecraft server on 10.0.0.3:25565
+[19:15:07] [Server thread/INFO]: Using default channel type
+[19:15:08] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:15:08] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:15:08] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.2;b3fbe8b
+[19:15:08] [Server thread/INFO]: [FortuneBlocks] Loading FortuneBlocks v1.2
+[19:15:08] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[19:15:08] [Server thread/INFO]: [PrisonILPlugin] Loading PrisonILPlugin v1.0
+[19:15:08] [Server thread/INFO]: [Kits] Loading Kits v1.0
+[19:15:08] [Server thread/INFO]: [NameManager] Loading NameManager v2.1.4
+[19:15:08] [Server thread/INFO]: [Prison] Loading Prison v2.1.4-SNAPSHOT
+[19:15:08] [Server thread/INFO]: [Rankup] Loading Rankup v2.2a
+[19:15:08] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b330
+[19:15:08] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b342
+[19:15:08] [Server thread/INFO]: [EnjinMinecraftPlugin] Loading EnjinMinecraftPlugin v2.7.7
+[19:15:08] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[19:15:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:15:08] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:15:08] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:15:08] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:15:08] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[19:15:08] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:15:08] [Server thread/INFO]: Preparing level "world"
+[19:15:08] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:15:08] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:15:08] [Server thread/INFO]: Clear tick list: false
+[19:15:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:08] [Server thread/INFO]: View Distance: 10
+[19:15:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:15:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:15:08] [Server thread/INFO]: Max Entity Collisions: 8
+[19:15:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:15:08] [Server thread/INFO]: Anti X-Ray: true
+[19:15:08] [Server thread/INFO]: 	Engine Mode: 1
+[19:15:08] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:15:08] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:15:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:08] [Server thread/INFO]: Mob Spawn Range: 4
+[19:15:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:15:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:08] [Server thread/INFO]: Random Lighting Updates: false
+[19:15:08] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:15:08] [Server thread/INFO]: Structure Info Saving: true
+[19:15:08] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:15:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:15:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:15:09] [Server thread/INFO]: Clear tick list: false
+[19:15:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:09] [Server thread/INFO]: View Distance: 10
+[19:15:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:15:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:15:09] [Server thread/INFO]: Max Entity Collisions: 8
+[19:15:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:15:09] [Server thread/INFO]: Anti X-Ray: true
+[19:15:09] [Server thread/INFO]: 	Engine Mode: 1
+[19:15:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:15:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:15:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:09] [Server thread/INFO]: Mob Spawn Range: 4
+[19:15:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:15:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:09] [Server thread/INFO]: Random Lighting Updates: false
+[19:15:09] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:15:09] [Server thread/INFO]: Structure Info Saving: true
+[19:15:09] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:15:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:15:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:15:09] [Server thread/INFO]: Clear tick list: false
+[19:15:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:15:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:15:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:15:09] [Server thread/INFO]: View Distance: 10
+[19:15:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:15:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:15:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:15:09] [Server thread/INFO]: Max Entity Collisions: 8
+[19:15:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:15:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:15:09] [Server thread/INFO]: Anti X-Ray: true
+[19:15:09] [Server thread/INFO]: 	Engine Mode: 1
+[19:15:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:15:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:15:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:15:09] [Server thread/INFO]: Mob Spawn Range: 4
+[19:15:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:15:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:15:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:15:09] [Server thread/INFO]: Random Lighting Updates: false
+[19:15:09] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:15:09] [Server thread/INFO]: Structure Info Saving: true
+[19:15:09] [Server thread/INFO]: Max TNT Explosions: 100
+[19:15:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:15:09] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1595632974165469311)
+[19:15:10] [Server thread/INFO]: Preparing spawn area: 22%
+[19:15:11] [Server thread/INFO]: Preparing spawn area: 73%
+[19:15:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1595632974165469311)
+[19:15:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1595632974165469311)
+[19:15:12] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:15:12] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:15:12] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:15:12] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[19:15:12] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[19:15:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.2;b3fbe8b
+[19:15:13] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[19:15:13] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:15:13] [Server thread/INFO]: [FortuneBlocks] Enabling FortuneBlocks v1.2
+[19:15:13] [Server thread/INFO]: [PrisonILPlugin] Enabling PrisonILPlugin v1.0
+[19:15:13] [Server thread/INFO]: [PrisonILPlugin] PrisonILPlugin v1.0 has been enabled!
+[19:15:13] [Server thread/INFO]: [Kits] Enabling Kits v1.0
+[19:15:13] [Server thread/INFO]: [NameManager] Enabling NameManager v2.1.4
+[19:15:13] [Server thread/WARN]: [NameManager] Default system encoding may have misread config.yml from plugin jar
+[19:15:13] [Server thread/INFO]: [Prison] Enabling Prison v2.1.4-SNAPSHOT
+[19:15:13] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mLoaded 1 mines.[m
+[19:15:13] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mMines enabled.[m
+[19:15:13] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mRanks enabled.[m
+[19:15:13] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mEnabled Prison [0;33;22mv2.1.4-SNAPSHOT[0;32;22m. Made by [0;33;22mSirFaizdat[0;32;22m.[m
+[19:15:13] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;33;22mEnabled in 71ms.[m
+[19:15:13] [Server thread/INFO]: [Rankup] Enabling Rankup v2.2a
+[19:15:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b330
+[19:15:13] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[19:15:13] [Server thread/INFO]: Using locale en_US
+[19:15:14] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[19:15:14] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[19:15:14] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[19:15:14] [Server thread/INFO]: Using locale en_US
+[19:15:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[19:15:14] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[19:15:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b342
+[19:15:14] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[19:15:14] [Server thread/INFO]: [EnjinMinecraftPlugin] Enabling EnjinMinecraftPlugin v2.7.7
+[19:15:14] [Server thread/INFO]: [EnjinMinecraftPlugin] MC 1.3 or above found, enabling version 2 XP handling.
+[19:15:14] [Server thread/INFO]: [EnjinMinecraftPlugin] MC 1.7.2 or above found, enabling version 2 log handling.
+[19:15:14] [Server thread/INFO]: [EnjinMinecraftPlugin] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+[19:15:14] [Server thread/WARN]: [EnjinMinecraftPlugin] Economy plugin is not enabled.
+[19:15:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:15:14] [Server thread/INFO]: Done (6.131s)! For help, type "help" or "?"
+[19:15:14] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[19:15:16] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[19:15:26] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:15:32] [Server thread/INFO]: CONSOLE issued server command: /customtext 
+[19:15:32] [Server thread/INFO]: [m[0;33;22mThis is the custom text commands file.[m
+[19:15:32] [Server thread/INFO]: [m[m
+[19:15:32] [Server thread/INFO]: [m[0;33;22mThis file allows you to define custom text commands.[m
+[19:15:32] [Server thread/INFO]: [m[m
+[19:15:32] [Server thread/INFO]: [m[0;33;22mYou can create a specific file for a user or a group:[m
+[19:15:32] [Server thread/INFO]: [m[0;33;22mName it custom_username.txt or custom_groupname.txt[m
+[19:15:32] [Server thread/INFO]: [m[m
+[19:15:32] [Server thread/INFO]: [m[0;33;22mYou can use multiple pages, for example type:[m
+[19:15:32] [Server thread/INFO]: [m[0;31;1m/customtext 2[m
+[19:15:35] [Server thread/INFO]: CONSOLE issued server command: /customtext 2
+[19:15:35] [Server thread/INFO]: [0;33;22mSelect chapter:[m
+[19:15:35] [Server thread/INFO]: Customtext, vote, stafflist[m
+[19:15:40] [Server thread/INFO]: CONSOLE issued server command: /customtext vote
+[19:15:40] [Server thread/INFO]: [mIf you add the correct alias to commands.yml[m
+[19:15:40] [Server thread/INFO]: [mThis text here will be shown if you type /vote[m
+[19:15:40] [Server thread/INFO]: [m[m
+[19:15:57] [Server thread/INFO]: CONSOLE issued server command: /customtext stafflist
+[19:15:57] [Server thread/INFO]: [m[0;33;22mOnline Staff:[m
+[19:15:57] [Server thread/INFO]: [m  [m
+[19:20:28] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:20:28] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:20:28] [Server thread/INFO]: Debug logging is disabled
+[19:20:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:20:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:20:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:20:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:20:28] [Server thread/INFO]: Clear tick list: false
+[19:20:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:20:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:20:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:20:28] [Server thread/INFO]: View Distance: 10
+[19:20:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:20:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:20:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:20:28] [Server thread/INFO]: Max Entity Collisions: 8
+[19:20:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:20:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:20:28] [Server thread/INFO]: Anti X-Ray: true
+[19:20:28] [Server thread/INFO]: 	Engine Mode: 1
+[19:20:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:20:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:20:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:20:28] [Server thread/INFO]: Mob Spawn Range: 4
+[19:20:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:20:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:20:28] [Server thread/INFO]: Random Lighting Updates: false
+[19:20:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:20:28] [Server thread/INFO]: Structure Info Saving: true
+[19:20:28] [Server thread/INFO]: Max TNT Explosions: 100
+[19:20:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:20:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:20:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:20:28] [Server thread/INFO]: Clear tick list: false
+[19:20:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:20:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:20:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:20:28] [Server thread/INFO]: View Distance: 10
+[19:20:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:20:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:20:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:20:28] [Server thread/INFO]: Max Entity Collisions: 8
+[19:20:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:20:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:20:28] [Server thread/INFO]: Anti X-Ray: true
+[19:20:28] [Server thread/INFO]: 	Engine Mode: 1
+[19:20:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:20:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:20:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:20:28] [Server thread/INFO]: Mob Spawn Range: 4
+[19:20:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:20:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:20:28] [Server thread/INFO]: Random Lighting Updates: false
+[19:20:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:20:28] [Server thread/INFO]: Structure Info Saving: true
+[19:20:28] [Server thread/INFO]: Max TNT Explosions: 100
+[19:20:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:20:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:20:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:20:28] [Server thread/INFO]: Clear tick list: false
+[19:20:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:20:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:20:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:20:28] [Server thread/INFO]: View Distance: 10
+[19:20:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:20:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:20:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:20:28] [Server thread/INFO]: Max Entity Collisions: 8
+[19:20:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:20:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:20:28] [Server thread/INFO]: Anti X-Ray: true
+[19:20:28] [Server thread/INFO]: 	Engine Mode: 1
+[19:20:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:20:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:20:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:20:28] [Server thread/INFO]: Mob Spawn Range: 4
+[19:20:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:20:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:20:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:20:28] [Server thread/INFO]: Random Lighting Updates: false
+[19:20:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:20:28] [Server thread/INFO]: Structure Info Saving: true
+[19:20:28] [Server thread/INFO]: Max TNT Explosions: 100
+[19:20:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:20:28] [Server thread/INFO]: [EnjinMinecraftPlugin] Disabling EnjinMinecraftPlugin v2.7.7
+[19:20:28] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b342
+[19:20:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b330
+[19:20:28] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[19:20:28] [Server thread/INFO]: [Rankup] Disabling Rankup v2.2a
+[19:20:28] [Server thread/INFO]: [Prison] Disabling Prison v2.1.4-SNAPSHOT
+[19:20:28] [Server thread/INFO]: [NameManager] Disabling NameManager v2.1.4
+[19:20:28] [Server thread/INFO]: [Kits] Disabling Kits v1.0
+[19:20:28] [Server thread/INFO]: [PrisonILPlugin] Disabling PrisonILPlugin v1.0
+[19:20:28] [Server thread/INFO]: [PrisonILPlugin] PrisonILPlugin v1.0 has been disabled!
+[19:20:28] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[19:20:28] [Server thread/INFO]: [FortuneBlocks] Disabling FortuneBlocks v1.2
+[19:20:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.2;b3fbe8b
+[19:20:28] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[19:20:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.2;b3fbe8b
+[19:20:28] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:20:28] [Server thread/INFO]: [FortuneBlocks] Loading FortuneBlocks v1.2
+[19:20:28] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[19:20:28] [Server thread/INFO]: [Votifier] Loading Votifier v2.3.2.2
+[19:20:28] [Server thread/INFO]: [PrisonILPlugin] Loading PrisonILPlugin v1.0
+[19:20:28] [Server thread/INFO]: [Kits] Loading Kits v1.0
+[19:20:28] [Server thread/INFO]: [NameManager] Loading NameManager v2.1.4
+[19:20:28] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b330
+[19:20:28] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b342
+[19:20:28] [Server thread/INFO]: [Prison] Loading Prison v2.1.4-SNAPSHOT
+[19:20:28] [Server thread/INFO]: [Rankup] Loading Rankup v2.2a
+[19:20:28] [Server thread/INFO]: [EnjinMinecraftPlugin] Loading EnjinMinecraftPlugin v2.7.7
+[19:20:28] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[19:20:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:20:28] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:20:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:20:28] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:20:28] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[19:20:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.2;b3fbe8b
+[19:20:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:20:29] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:20:29] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:20:29] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:20:29] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:20:29] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[19:20:29] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[19:20:29] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[19:20:29] [Server thread/INFO]: [FortuneBlocks] Enabling FortuneBlocks v1.2
+[19:20:29] [Server thread/INFO]: [Votifier] Enabling Votifier v2.3.2.2
+[19:20:29] [Server thread/INFO]: [Votifier] Configuring Votifier for the first time...
+[19:20:29] [Server thread/INFO]: [Votifier] ------------------------------------------------------------------------------
+[19:20:29] [Server thread/INFO]: [Votifier] Assigning NuVotifier to listen on port 8192. If you are hosting Craftbukkit on a
+[19:20:29] [Server thread/INFO]: [Votifier] shared server please check with your hosting provider to verify that this port
+[19:20:29] [Server thread/INFO]: [Votifier] is available for your use. Chances are that your hosting provider will assign
+[19:20:29] [Server thread/INFO]: [Votifier] a different port, which you need to specify in config.yml
+[19:20:29] [Server thread/INFO]: [Votifier] ------------------------------------------------------------------------------
+[19:20:29] [Server thread/INFO]: [Votifier] Your default NuVotifier token is gddg3kq4pt2r4mt87opqkrmqg7.
+[19:20:29] [Server thread/INFO]: [Votifier] You will need to provide this token when you submit your server to a voting
+[19:20:29] [Server thread/INFO]: [Votifier] list.
+[19:20:29] [Server thread/INFO]: [Votifier] ------------------------------------------------------------------------------
+[19:20:29] [Server thread/INFO]: [Votifier] Loaded token for website: default
+[19:20:30] [Server thread/INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[19:20:30] [Server thread/INFO]: [PrisonILPlugin] Enabling PrisonILPlugin v1.0
+[19:20:30] [nioEventLoopGroup-2-1/INFO]: [Votifier] Votifier enabled on socket /10.0.0.3:8192.
+[19:20:30] [Server thread/INFO]: [PrisonILPlugin] PrisonILPlugin v1.0 has been enabled!
+[19:20:30] [Server thread/INFO]: [Kits] Enabling Kits v1.0
+[19:20:30] [Server thread/INFO]: [NameManager] Enabling NameManager v2.1.4
+[19:20:30] [Server thread/WARN]: [NameManager] Default system encoding may have misread config.yml from plugin jar
+[19:20:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b330
+[19:20:30] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[19:20:30] [Server thread/INFO]: Using locale en_US
+[19:20:30] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[19:20:30] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[19:20:30] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[19:20:30] [Server thread/INFO]: Using locale en_US
+[19:20:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[19:20:30] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[19:20:30] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b342
+[19:20:30] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[19:20:30] [Server thread/INFO]: [Prison] Enabling Prison v2.1.4-SNAPSHOT
+[19:20:30] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mLoaded 1 mines.[m
+[19:20:30] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mMines enabled.[m
+[19:20:30] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mRanks enabled.[m
+[19:20:30] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;32;22mEnabled Prison [0;33;22mv2.1.4-SNAPSHOT[0;32;22m. Made by [0;33;22mSirFaizdat[0;32;22m.[m
+[19:20:30] [Server thread/INFO]: [0;33;22m[[0;31;22mPrison[0;33;22m] [0;33;22mEnabled in 52ms.[m
+[19:20:30] [Server thread/INFO]: [Rankup] Enabling Rankup v2.2a
+[19:20:30] [Server thread/INFO]: [EnjinMinecraftPlugin] Enabling EnjinMinecraftPlugin v2.7.7
+[19:20:30] [Server thread/INFO]: [EnjinMinecraftPlugin] MC 1.3 or above found, enabling version 2 XP handling.
+[19:20:30] [Server thread/INFO]: [EnjinMinecraftPlugin] MC 1.7.2 or above found, enabling version 2 log handling.
+[19:20:30] [Server thread/INFO]: [EnjinMinecraftPlugin] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+[19:20:30] [Server thread/WARN]: [EnjinMinecraftPlugin] Economy plugin is not enabled.
+[19:20:30] [Server thread/INFO]: [Enjin Minecraft Plugin] Votifier plugin found, enabling Votifier support.
+[19:20:30] [Server thread/WARN]: [Enjin Minecraft Plugin] Couldn't enable EnjinMinecraftPlugin! Reason: com/vexsoftware/votifier/Votifier
+[19:20:30] [Server thread/WARN]: java.lang.NoClassDefFoundError: com/vexsoftware/votifier/Votifier
+[19:20:30] [Server thread/WARN]: 	at com.enjin.officialplugin.EnjinMinecraftPlugin.setupVotifierListener(EnjinMinecraftPlugin.java:773)
+[19:20:30] [Server thread/WARN]: 	at com.enjin.officialplugin.EnjinMinecraftPlugin.onEnable(EnjinMinecraftPlugin.java:395)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:741)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:535)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:641)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:627)
+[19:20:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:412)
+[19:20:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:375)
+[19:20:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+[19:20:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+[19:20:30] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[19:20:30] [Server thread/WARN]: Caused by: java.lang.ClassNotFoundException: com.vexsoftware.votifier.Votifier
+[19:20:30] [Server thread/WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101)
+[19:20:30] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86)
+[19:20:30] [Server thread/WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[19:20:30] [Server thread/WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[19:20:30] [Server thread/WARN]: 	... 18 more
+[19:20:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:20:30] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[19:20:30] [Craft Scheduler Thread - 11/INFO]: [Vault] Checking for Updates ... 
+[19:20:31] [Craft Scheduler Thread - 11/INFO]: [Vault] No new version available
+[19:24:10] [Server thread/INFO]: Plugins (13): [0;32;1mWorldEdit[0;37;1m, [0;32;1mPermissionsEx[0;37;1m, [0;32;1mFortuneBlocks[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mVotifier[0;37;1m, [0;32;1mPrisonILPlugin[0;37;1m, [0;32;1mKits[0;37;1m, [0;32;1mNameManager[0;37;1m, [0;32;1mEssentials[0;37;1m, [0;32;1mEssentialsChat[0;37;1m, [0;32;1mPrison[0;37;1m, [0;32;1mRankup[0;37;1m, [0;31;1mEnjinMinecraftPlugin[m
+[19:24:17] [Server thread/INFO]: Stopping the server
+[19:24:17] [Server thread/INFO]: Stopping server
+[19:24:17] [Server thread/INFO]: [Rankup] Disabling Rankup v2.2a
+[19:24:17] [Server thread/INFO]: [Prison] Disabling Prison v2.1.4-SNAPSHOT
+[19:24:17] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b342
+[19:24:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b330
+[19:24:17] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[19:24:17] [Server thread/INFO]: [NameManager] Disabling NameManager v2.1.4
+[19:24:17] [Server thread/INFO]: [Kits] Disabling Kits v1.0
+[19:24:17] [Server thread/INFO]: [PrisonILPlugin] Disabling PrisonILPlugin v1.0
+[19:24:17] [Server thread/INFO]: [PrisonILPlugin] PrisonILPlugin v1.0 has been disabled!
+[19:24:17] [Server thread/INFO]: [Votifier] Disabling Votifier v2.3.2.2
+[19:24:17] [Server thread/INFO]: [Votifier] Votifier disabled.
+[19:24:17] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[19:24:17] [Server thread/INFO]: [FortuneBlocks] Disabling FortuneBlocks v1.2
+[19:24:17] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[19:24:17] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[19:24:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.2;b3fbe8b
+[19:24:17] [Server thread/INFO]: Saving players
+[19:24:17] [Server thread/INFO]: Saving worlds
+[19:24:17] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:24:17] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[19:24:17] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
